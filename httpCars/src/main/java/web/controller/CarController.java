@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/cars")
 public class CarController {
     
-    private final serviceForCar serviceForCar;
+    private final ServiceForCar serviceForCar;
     
     @Autowired
-    public CarController(serviceForCar serviceForCar) {
+    public CarController(ServiceForCar serviceForCar) {
         this.serviceForCar = serviceForCar;
     }
 
