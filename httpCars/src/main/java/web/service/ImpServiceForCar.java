@@ -6,7 +6,7 @@ import java.util.List;
 
 @Component
 @Service
-public class ImpServiceForCar implements serviceForCar {
+public class ImpServiceForCar implements ServiceForCar {
 
     private List<Car> cars;
         {
